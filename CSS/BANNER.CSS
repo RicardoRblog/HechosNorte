@@ -5,7 +5,7 @@
 
 #banner img {
     width: 100%;
-    height:300%;
+    height: 100%;
     top: auto;
 }
 
@@ -19,7 +19,7 @@
 }
 
 #banner h2 {
-    font-size: 58px;
+    font-size: 48px;
     color: aliceblue;
     font-size-adjust: auto;
    
@@ -46,20 +46,25 @@
 
 #banner a:hover {
     background: rgba(51,51,51,5);
-    color: yellow;
+    color: blue;
 }
 
 
 @media (min-width:280px) {
     #banner h2{
-        font-size:40px; 
-        
+        font-size:30px; 
+    
     }
     
     #banner a {
         margin-top: 25px;
     }
         
+    
+    #banner img{
+        margin-top: auto;
+    }
+    
 }
 
 @media (min-width:768px) {
