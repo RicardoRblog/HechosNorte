@@ -45,25 +45,15 @@ header label {
 
 
 
-
 @media (min-width:240px) {
     .menu {
-        position: static;
-        width: auto;
-        height: auto;
-        transform: translateX(0);
-        float: right;
-        display: flex;
+       '' position: static;
+    ''    width: auto;
+     ''   height: auto;
+      ''  transform: translateX(0);
+      ''  float: right;
+    ''    display: flex;
     }
-    
-    .menu a {
-        border: none;
-    }
- 
-    header label {
-        display: none;
-    }
-    
 
 
 
@@ -85,9 +75,6 @@ header label {
         display: none;
     }
     
-
-
-
 
 
 @media (min-width:1024px) {
