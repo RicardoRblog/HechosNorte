@@ -11,7 +11,7 @@
 
 #banner audio {
       position:relative;
-      top:-170px;
+      top:-155px;
       left: 100px;     
       float: right; 
       width: 25%;
@@ -81,13 +81,14 @@
     }
         
     
+
+    
     #banner img{
         margin-top: auto;
     }
- 
-     
+
         
-    }    
+}    
     
 
 @media (min-width:768px) {
