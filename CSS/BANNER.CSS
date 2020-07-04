@@ -71,7 +71,7 @@
 
     #banner audio{
         position: relative;
-        top: 65px;
+        top: auto;
         left: 0px;
         padding: 5px;
         margin-top: 0;
@@ -102,7 +102,7 @@
     #banner audio{
         position:relative;
         top: -160px;
-        left: 240px;
+        left: 440px;
     }
     
     
