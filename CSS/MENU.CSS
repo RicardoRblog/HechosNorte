@@ -57,7 +57,7 @@ header label {
 
 }
 
-@media (min-width:768px) {
+@media (min-width:720px) {
     .menu {
         position: static;
         width: auto;
