@@ -1,5 +1,7 @@
 #blog h3, h4 {
     text-align: center;
+    text-decoration:underline;
+        
 }
 
 #blog .contenedor {
@@ -10,14 +12,23 @@
 }
 
 #blog article {
-    margin: 15px;
+    margin: 25px;
     
 }
 
 #blog img {
-    width: 100%;
-    max-width: 280px;
+    width: 150%;
+    max-width: 380px;
     position:relative;
         
 }
 
+
+#blog iframe {
+    width: 150%;
+    max-width: 380px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -43,12 +43,13 @@ header .contenedor{
 
 section {
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 #Bienvenidos {
     text-align: center;
     color: black;
+  
 }
 
 footer .contenedor {
@@ -85,30 +86,22 @@ footer .contenedor {
         
     }
     
-    
     footer .contenedor {
         
         justify-content: space-between;
     }
 
-
-
-
-
-
+}
+    
 @media  (min-width:768px) {
     .sociales {
-        width: auto;
-        
+        width: auto;     
     }
-    
+ }
     
     footer .contenedor {
-        
         justify-content: space-between;
     }
-}
-
 
 
 @media (min-width:1024px) {

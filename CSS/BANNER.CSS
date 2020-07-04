@@ -9,6 +9,24 @@
     top: auto;
 }
 
+#banner audio {
+      position:relative;
+      top:-170px;
+      left: 100px;     
+      float: right; 
+      width: 25%;
+      height: 38px;
+      background: rgba(51,51,51,0.7);
+      display: block;
+      text-decoration: none;
+      border: 3px solid #5553;
+      padding: 5px;
+      
+    
+}
+
+
+
 #banner .contenedor {
     position: absolute;
     top: 50%;
@@ -59,14 +77,18 @@
     #banner a {
         margin-top: 25px;
         float: right;
+        top: auto;
     }
         
     
     #banner img{
         margin-top: auto;
     }
+ 
+     
+        
+    }    
     
-}
 
 @media (min-width:768px) {
     #banner {
