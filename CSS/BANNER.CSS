@@ -8,23 +8,7 @@
     height: 100%;
     top: auto;
 }
-
-#banner audio {
-      position:relative;
-      top:-155px;
-      left: 100px;     
-      float: right; 
-      width: 25%;
-      height: 38px;
-      background: rgba(51,51,51,0.7);
-      display: block;
-      text-decoration: none;
-      border: 3px solid #5553;
-      padding: 5px;
-      
     
-}
-
 
 
 #banner .contenedor {
@@ -81,12 +65,19 @@
     }
         
     
-
-    
     #banner img{
         margin-top: auto;
     }
 
+    #banner audio{
+        position: relative;
+        top: -175px;
+        left: 110px;
+        padding: 5px;
+        margin-top: 0;
+        border: 2.5px solid #E5E7E9;
+            
+    }
         
 }    
     
@@ -102,7 +93,21 @@
         margin-top: -100px;
     }
     
+     #banner a {
+        margin-top: 25px;
+        float: right;
+        top: 155px;
+    }
+    
+    #banner audio{
+        position:relative;
+        top: -160px;
+        left: 320px;
+    }
+    
+    
 }
+
 
 
 @media (min-width:1024px) {
@@ -111,8 +116,18 @@
         margin-top: -100px;
     }
     
+     #banner a {
+        margin-top: 25px;
+        float: right;
+        top: auto;
+    
 }
 
+    #banner audio{
+        position:relative;
+        top: -160px;
+        left: 720px;
 
+}
 
-
+}
