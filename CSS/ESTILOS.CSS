@@ -82,8 +82,8 @@ footer .contenedor {
 .sociales a:hover {
     background: rgba(50,50,49,0.5);
     color: royalblue;    
-    
-        
+    border-radius: 80%;
+    border: 1.5px;
 }
 
 @media  (min-width:240px) {
