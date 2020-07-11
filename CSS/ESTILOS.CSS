@@ -4,6 +4,7 @@
 @import url(BLOG.CSS);
 @import url(info-banda.css);    
 @import url(TEXTOS.CSS);
+
     
 *{
     margin: 0;
@@ -56,7 +57,7 @@ footer .contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     
 }
 
@@ -75,13 +76,13 @@ footer .contenedor {
 
 
 .sociales a {
-    color: blue;
+    color: #333;
     text-decoration: none;
     
 }
 .sociales a:hover {
     background: rgba(50,50,49,0.5);
-    color: royalblue;    
+    color: #fff;    
     border-radius: 80%;
     border: 1.5px;
 }
