@@ -2,7 +2,7 @@
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     text-decoration-color: black;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .info-banda {
-    margin: 70px;
+    margin: 20px;
     
 }
 
@@ -34,7 +34,7 @@ text-align: center;
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    border: 7px solid white;
+    border: 5px solid white;
 }
 
 
