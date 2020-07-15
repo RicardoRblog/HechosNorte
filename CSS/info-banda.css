@@ -24,12 +24,6 @@ text-align: center;
 }
 
 
-.info-banda audio {
-    width: auto;
-    position: absolute;
-    top: 15px;
-}
-
 .info-banda img {
     width: 180px;
     height: 180px;
@@ -39,22 +33,32 @@ text-align: center;
 }
 
 
+.info-banda copy{
+    
+    text-align: center;
+}
+
+
 @media (min-width:280px) {
     .info-banda {
-        width: 5%;
+        width: 100%;
         
     }
 
     .info-banda h4{
         text-align: center;
-        font-size:15px; 
+        font-size: 15px; 
+    }
+    
+    .info-banda h3{
+        text-align: center;
+        font-size: 50px; 
+    
     }
 
     .info-banda img{
-         ´'width: 10%;
-         position: relative;
-        
-        
+         width: 50%;
+         position: relative;    
     }
 }
 
@@ -65,17 +69,36 @@ text-align: center;
     
 }   
 
+.footer {
+    width: 100%;
 }
+
+
+
 @media (min-width:720px) {
     .info-banda {
         width: 30%;
     }
     
+    .info-banda img{
+         width: 80%;
+         position: relative;
+     
 }
-
+    
+}
 @media (min-width:1024px) {
     .info-banda {
-        width:auto;
+        width:20%;
+       justify-content: center;
+        
+    }
+    
+        
+    
+    .info-banda copy{
+        
+        text-align: center;
     }
     
 }

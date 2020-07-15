@@ -3,9 +3,9 @@
 }
 
 header label {
-    float:right;
+    float: right;
     font-size: 28px;
-    margin: 8px 0;
+    margin: 6px 0;
     cursor: pointer;
     
 }
@@ -39,21 +39,21 @@ header label {
 }
 
 #menu-bar:checked ~ .menu{
- transform: translateX(0);
+ transform: translateX(0%);
     
 }
 
 
 
-@media (min-width:240px) {
+@media (min-width:280px) {
     .menu {
-       '  position: static;
-    ''    width: auto;
-     ''   height: auto;
-      ''  transform: translateX(0);
-      ''  float: right;
-    ''    display: flex;
+      
+         width: none;
+         height: none;
+         transform: translateX(-100%);
+        
     }
+
 
 }
 
@@ -62,7 +62,7 @@ header label {
         position: static;
         width: auto;
         height: auto;
-        transform: translateX(0);
+        transform: translateX(0%);
         float: right;
         display: flex;
     }
@@ -82,7 +82,7 @@ header label {
         position: static;
         width: auto;
         height: auto;
-        transform: translateX(0);
+        transform: translateX(0%);
         float: right;
         display: flex;
     }

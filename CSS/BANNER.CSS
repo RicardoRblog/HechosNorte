@@ -32,6 +32,7 @@
     font-size: 15px;
     color: aliceblue;
     font-size-adjust: auto;
+    height: auto;
     
 }
 
@@ -43,23 +44,31 @@
     padding: 7px;
     margin-top: 10px;
     border: 3px solid #fff;
+    text-align: center;
    
 }
 
 #banner a:hover {
-    background: rgba(51,51,51,5);
-    color: blue;
+    background: rgba(49,49,49,0.9);
+    color: #fff;
+   
 }
 
 
 @media (min-width:280px) {
     #banner h2{
         font-size:30px; 
+        text-align: center;
     
     }
     
+    #banner p{
+        text-align: center;
+        top:100px;
+    }
+    
     #banner a {
-        margin-top: 25px;
+        margin-top: 35px;
         float: right;
         top: auto;
     }
@@ -80,22 +89,25 @@
     
     #banner img {
         height: auto;
-        margin-top: -100px;
+        margin-top: 0px;
     }
     
+    #banner h2{
+        font-size: 40px;
+    }
+    
+    #banner p{
+        font-size: 20px;
+    }
+    
+    
+    
      #banner a {
-        margin-top: 25px;
+        margin-top: 35px;
         float: right;
         top: 155px;
     }
-    
-    #banner audio{
-        position:relative;
-        top: -160px;
-        left: 440px;
-    }
-    
-    
+        
 }
 
 
@@ -103,7 +115,7 @@
 @media (min-width:1024px) {
     #banner img {
         height:auto;
-        margin-top: -200px;
+        margin-top: auto;
     }
     
      #banner a {
@@ -111,13 +123,6 @@
         float: right;
         top: auto;
     
-}
-
-    #banner audio{
-        position:relative;
-        top: -160px;
-        left: 720px;
-
 }
 
 }
