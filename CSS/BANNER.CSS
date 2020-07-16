@@ -59,18 +59,21 @@
     #banner h2{
         font-size:30px; 
         text-align: center;
+        background: rgba(25,25,25,0.2)
     
     }
     
     #banner p{
         text-align: center;
         top:100px;
+        background: rgba(25,25,25,0.2)
     }
     
     #banner a {
         margin-top: 35px;
         float: right;
         top: auto;
+       
     }
         
     
@@ -89,15 +92,17 @@
     
     #banner img {
         height: auto;
-        margin-top: 0px;
+        margin-top: -98px;
     }
     
     #banner h2{
         font-size: 40px;
+        background: rgba(25,25,25,0.2);
     }
     
     #banner p{
         font-size: 20px;
+        background: rgba(25,25,25,0.2);
     }
     
     
@@ -106,6 +111,7 @@
         margin-top: 35px;
         float: right;
         top: 155px;
+        color: black; 
     }
         
 }
@@ -115,13 +121,33 @@
 @media (min-width:1024px) {
     #banner img {
         height:auto;
-        margin-top: auto;
+        margin-top: -14%;
+        
     }
     
-     #banner a {
-        margin-top: 25px;
-        float: right;
-        top: auto;
+    #banner h2{
+        font-size: 40px;
+        background: rgba(25,25,25,0.2);
+    }
+    
+    #banner p{
+        font-size: 20px;
+        background: rgba(25,25,25,0.2);
+    
+    
+    }
+    
+    
+    #banner a {
+    display: block;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 125px;
+    border: 1px solid #fff;
+    text-align: center;
+    background: rgba (255,255,255,0.2);     
     
 }
 

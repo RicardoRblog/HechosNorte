@@ -21,12 +21,13 @@
 .info-banda h4{
     
 text-align: center;
+  
 }
 
 
 .info-banda img {
     width: 180px;
-    height: 180px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid white;
     position: relative;

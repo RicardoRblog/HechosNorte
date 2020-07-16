@@ -1,6 +1,6 @@
 #blog h3, h4 {
     text-align: center;
-    text-decoration:underline;
+    text-decoration:none;
         
 }
 
@@ -12,21 +12,22 @@
 }
 
 #blog article {
-    margin: 45px;
+    margin: 25px;
     
 }
 
 #blog img {
-    width: 150%;
-    max-width: 280px;
+    width: 1020px;
+    max-width: 360px;
     position:relative;
-        
+    display: flex;
+    border: black;    
 }
 
 
 #blog iframe {
-    width: 150%;
-    max-width: 280px;
+    width: 1020px;
+    max-width: 340px;
     position:relative;
     display: flex;
     justify-content: center;
