@@ -50,7 +50,8 @@ section {
 #Bienvenidos {
     text-align: center;
     color: black;
-  
+    margin: 0.1px;
+    
 }
 
 
@@ -164,5 +165,8 @@ footer .contenedor {
     .contenedor {
         width: 1024px;
     }
-       
+    
+    .sociales {
+        width: 100%;
+    }
 }

@@ -11,6 +11,15 @@
     
 }
 
+#blog .p{
+    margin: 15px;
+    left: auto;
+    right: auto;
+}
+
+
+
+
 #blog article {
     margin: 15px;
     
