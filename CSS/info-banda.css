@@ -2,19 +2,19 @@
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     text-decoration-color: black;
 }
 
 #info .contenedor {
     display:flex;
-    flex-wrap: wrap;
+    flex-flow:wrap;
     justify-content: center;
     
 }
 
 .info-banda {
-    margin: 20px;
+    margin: 5px;
     
 }
 
@@ -40,9 +40,9 @@ text-align: center;
 }
 
 
-@media (min-width:280px) {
+@media (min-width:320px) {
     .info-banda {
-        width: 100%;
+        width: 60%;
         
     }
 
@@ -58,7 +58,7 @@ text-align: center;
     }
 
     .info-banda img{
-         width: 50%;
+         width: 30%;
          position: relative;    
     }
 }
@@ -82,7 +82,7 @@ text-align: center;
     }
     
     .info-banda img{
-         width: 80%;
+         width: 90%;
          position: relative;
      
 }

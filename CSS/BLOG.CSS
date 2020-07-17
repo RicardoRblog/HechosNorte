@@ -1,4 +1,4 @@
-#blog h3, h4 {
+#blog h2, h3, h4 {
     text-align: center;
     text-decoration:none;
         
@@ -12,13 +12,13 @@
 }
 
 #blog article {
-    margin: 25px;
+    margin: 15px;
     
 }
 
 #blog img {
     width: 1020px;
-    max-width: 360px;
+    max-width: 340px;
     position:relative;
     display: flex;
     border: black;    
