@@ -1,0 +1,45 @@
+.fragmentos{
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+   
+ }
+
+
+.fragmentos iframe{
+    width: 100%;
+
+}
+
+
+.fragmentos h1{
+    font-size: 28px;
+
+}
+
+.fragmentos h3{
+    font-size: 16px;
+
+}
+
+
+
+.fragmentos h1, h3 {
+    
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  
+    padding: 10px;
+
+}
+
+
+.fragmentos a{
+    text-decoration:dotted;
+    color:#F61709;
+    
+
+
+}

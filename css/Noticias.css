@@ -1,0 +1,50 @@
+.eventos{
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+   
+ }
+
+ .eventos img{
+    
+    
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    margin: 2px;
+
+ }
+
+ 
+.eventos h1{
+    font-size: 28px;
+
+}
+
+.eventos p{
+    text-align: center;
+    font-size: 12px;
+
+}
+
+
+
+.eventos h1, h3 {
+    
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+
+}
+
+#Noticias a{
+    color:#F61709;
+    
+
+}
+
+
+
+
