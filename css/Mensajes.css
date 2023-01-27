@@ -2,15 +2,33 @@
     padding: 5px;
     width: 100%;
     justify-content: center;
+
    
  }
 
 
-.fragmentos iframe{
+ .videos {
     width: 100%;
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}   
+
+
+iframe{
+    max-width: 580px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+    margin: 2px;
+    justify-content: space-between;
+
 
 }
-
 
 .fragmentos h1{
     font-size: 28px;
@@ -35,11 +53,17 @@
 
 }
 
-
-.fragmentos a{
-    text-decoration:dotted;
-    color:#F61709;
-    
-
+.vermas{
+margin: auto;
+text-align: center;
 
 }
+
+
+.vermas a{
+    color: #F61709;
+   
+}
+
+
+

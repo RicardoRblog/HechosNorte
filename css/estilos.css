@@ -12,6 +12,8 @@
     box-sizing: border-box;
     background-color: #000;
     color: #fff;
+    max-width: 1200px;
+    margin: auto;
 
 } 
 
@@ -20,48 +22,92 @@ body{
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+
 .encabezado{
+    
     width: 100%;
-    max-width: 1200px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
 header{
     width: 100%;
-    height: 200px;
     background-color: #000;
 
 }
 
 .logo{
-    padding: 25px 0;
+    
+    padding: 5px;
+    width: 100px;
 }
 
 
 .logo img{
     width: 100px;
     display: block;
-    margin: auto;
+    margin: -30%;
 
 }
 
 .menu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    top: 50px;
+    left: 0;
+    justify-content: center;
     max-width: 700px;
     margin: auto;
+    transition: all 0.5s;
+    transform: translatex(-100%);
+
+
 }
 
 
 .menu a{
+    display: block;
+    height: 70px;
+    background: rgb(10, 10, 10);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.6);
+    text-align: right;
     text-decoration: none;
     color: #fff;
-    padding: 5px;
-    font-size: 12px;
+    padding: 40px;
+    font-size: 16px;
+    
 }
+
+
+.hamb{
+    font-size: 20px;
+    color: #ffff;
+    padding: 10px;
+    cursor: pointer;
+    
+
+}
+
+
+#menu-bar {
+
+    display: none;
+}
+
+
+
+#menu-bar:checked ~ .menu{
+    position: absolute;
+    height: 100vh;    
+    height: 100%;
+    transition: all 0.5s;
+    transform: translatex(0%);
+
+}
+
 
 .menu a:hover{
     border-radius: 5px;
