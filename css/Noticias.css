@@ -1,19 +1,32 @@
 .eventos{
-    padding: 2px;
-    width: 100%;
-    justify-content: center;
+    width: 100%;   
+    padding: 5px;
+   
+    
    
  }
 
- .eventos img{
+ .imagenes{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
     
-    
-    border: 1px solid white;
-    border-radius: 5px;
-    width: 100%;
-    margin: 1px;
 
  }
+
+.imagenes img{
+
+    width: 100%;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+
 
  
 .eventos h1{
@@ -39,11 +52,6 @@
 
 }
 
-#Noticias a{
-    color:#F61709;
-    
-
-}
 
 
 

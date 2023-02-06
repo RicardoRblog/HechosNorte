@@ -19,7 +19,7 @@
 
 body{
 
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -52,17 +52,17 @@ header{
 
 }
 
+
 .menu{
     position: absolute;
     width: 100%;
-    background: rgb(0, 0, 0);
+    background: rgb(2, 2, 2);
     top: 50px;
-    left: 0;
     justify-content: center;
     max-width: 700px;
     margin: auto;
     transition: all 0.5s;
-    transform: translatex(-100%);
+    transform: translatey(-120%);
 
 
 }
@@ -72,7 +72,7 @@ header{
     display: block;
     height: 70px;
     background: rgb(10, 10, 10);
-    border-bottom: 0.5px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 0.2px solid rgba(255, 255, 255, 0.219);
     text-align: right;
     text-decoration: none;
     color: #fff;
@@ -101,10 +101,9 @@ header{
 
 #menu-bar:checked ~ .menu{
     position: absolute;
-    height: 100vh;    
     height: 100%;
     transition: all 0.5s;
-    transform: translatex(0%);
+    transform: translatey(0%);
 
 }
 
